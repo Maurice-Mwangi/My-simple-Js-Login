@@ -1,0 +1,152 @@
+body {
+    box-sizing: border-box;
+    background-color: aliceblue;
+    overflow-x: hidden;
+    height:98vh;
+    padding: 30px;
+}
+
+form {
+    width: 50%;
+    margin: auto;
+    padding: 30px 20px;
+    border: 3px solid blue;
+    border-radius: 20px;
+    box-shadow: 3px 5px 3px gray;
+}
+
+h2 {
+    width: 80%;
+    margin: 20px auto;
+    text-align: center;
+    color: blue;
+    text-transform: capitalize;
+    font-size: 20px;
+}
+
+div {
+    width: 96%;
+    margin: 30px auto;
+}
+
+label {
+    width: 70%;
+    margin: auto;
+    font-weight: 700;
+    display: grid;
+    grid-template-columns: 20% 70%;
+    column-gap: 10%;
+    align-items: center;
+}
+
+input {
+    padding: 4px 1px;
+    border: none;
+    background-color: rgb(194, 219, 241);
+}
+
+input:focus {
+    outline: 2px solid blue;
+    background-color: white;
+}
+
+#username {
+    width: 100%;
+}
+
+#pass-input {
+    display: grid;
+    grid-template-columns: 90% 10%;
+    align-items: center;
+}
+
+#password {
+    width: 100%;
+    height: 18px;
+}
+
+img {
+    width: 100%;
+    height: 24.5px;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+#button-section, #link-section {
+    text-align: center;
+    margin: 20px auto;
+}
+
+button {
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+    padding: 9px 12px;
+    border: none;
+    border-radius: 15px;
+    margin: 2px 10px;
+    cursor: pointer;
+    transition: all .6s linear .3s;
+}
+
+#btnLogin {
+    background-color: blue;
+}
+
+#btnLogin:hover {
+    background-color: rgb(0, 0, 141);
+}
+
+#btnLogin:active {
+    background-color: rgb(49, 49, 255);
+}
+
+#btnCancel {
+    background-color: red;
+}
+
+#btnCancel:hover {
+    background-color: rgb(158, 0, 0);
+}
+
+#btnCancel:active {
+    background-color: rgb(255, 72, 72);
+}
+
+a {
+    text-decoration: none;
+    color: blue;
+    margin: 1px 10px;
+}
+
+a:hover {
+    color: rgb(0, 0, 155);
+    font-size: 18px;
+}
+
+#error {
+    width: 100%;
+    color: red;
+    font-weight: 700;
+    font-size: 18px;
+    text-align: center;
+}
+
+.hide {
+    display: none;
+}
+
+@media only screen and (max-width: 600px){
+    form {
+        width: 90%;
+    }
+
+    div{
+        width: 100%;
+    }
+
+    label {
+        width: 100%;
+    }
+    
+}
